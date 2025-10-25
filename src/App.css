@@ -1,0 +1,69 @@
+body {
+  background-color: #222; /* light black */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.passwordBox {
+  background-color: #333;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 600px;
+  color: #fff;
+}
+
+.passwordBox h2 {
+  margin-bottom: 20px;
+}
+
+.passwordBox > div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.passwordBox input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.passwordBox button {
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.passwordBox button:hover {
+  background-color: #0056b3;
+}
+
+.passwordBox > div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.passwordBox > div:last-of-type div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
